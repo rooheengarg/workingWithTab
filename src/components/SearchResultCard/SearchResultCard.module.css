@@ -1,0 +1,22 @@
+.card {
+  width: 640px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #eee;
+}
+
+/* .card:hover {
+  background-color: #ede;
+} */
+
+.margintop8 {
+  margin-top: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.active {
+  background-color: #ede;
+}

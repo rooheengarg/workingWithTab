@@ -1,0 +1,30 @@
+.inputContainer {
+  width: 600px;
+  padding: 8px 8px 8px 30px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.posRelative {
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  height: 14px;
+  left: 9px;
+  top: 9px;
+}
+
+.cross {
+  height: 14px;
+  position: absolute;
+  left: 45%;
+  top: 9px;
+  cursor: pointer;
+}
+
+.inputContainer:focus,
+.inputContainer:active {
+  outline: none;
+}
